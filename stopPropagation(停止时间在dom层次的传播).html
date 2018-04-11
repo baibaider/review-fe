@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>
+    stopPropagation()是用于立即停止事件在DOM层次中的传播，即取消进一步的时间捕获或冒泡。例如，直接添加到一个按钮的事件处理程序可以调用stopPropagation()，从而避免触发注册在document.body上面的事件处理程序.
+  </div>
+  <div id="btn">按钮</div>
+  <script>
+     var oBtn = document.getElementById("btn");
+     oBtn.onclick = function(event){
+       alert("clicked");
+        event.stopPropagation(); //不写这一句会出现两个弹框clicked和Body Click，写了只有clicked一个
+     }
+     document.onclick = function(event){
+       alert("Body Click");
+     }
+  </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .absolute{
+            background-color: #ffcccc;
+            position: absolute;
+        }
+        .noAbsolute{
+            background-color: #c685d9;
+            width:200px;
+            margin:10px;
+        }
+        .parent{
+            background-color: #cccccc;
+            width:300px;
+            height:100px;
+            position: relative;
+        }
+        .child{
+            background-color: #414141;
+            width:200px;
+            height:50px;
+            position: relative;
+            z-index: -5;
+        }
+    </style>
+</head>
+<body>
+<div class="absolute">
+    You're out of touch in overtime,
+    You're running in you're running,Better left behind,
+    You've dropped the ball to catch it with,And is it all there really is,
+    You're thinking but you're thinking,'Cause you know the best all things in life are free,
+    And it's all you need,You gotta live your life,
+    You gotta treat you right.</div>
+<div class="noAbsolute">
+    数着春去熟透的红豆，无人黄昏后，
+    庭前寒冷深秋为谁消瘦，
+    月下惟有我的身影投，该与谁厮守，
+    酒入喉却解不了愁，
+    芙蓉花又栖满了枝头，奈何蝶难留，
+    漂泊如江水向东流，
+    望断门前隔岸的杨柳，寂寞仍不休，
+    我无言让眼泪长流，
+    我独酌山外小阁楼，听一夜相思愁，
+    醉后让人烦忧，心事难收，
+    山外小阁楼，我乘一叶小舟，
+    放思念随风漂流。</div>
+<div class="parent">
+    parent
+    <div class="child">child</div>
+</div>
+</body>
+</html>

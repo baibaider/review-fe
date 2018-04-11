@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>inport以及export</title>
+  </head>
+  <body>
+    <div>
+      <p><p>import { stat, exists, readFile } from 'fs';</p>
+上面代码的实质是从fs模块加载 3 个方法，其他方法不加载。这种加载称为“编译时加载”或者静态加载，即 ES6 可以在编译时就完成模块加载</p>
+<p>
+  export命令用于规定模块的对外接口，import命令用于输入其他模块提供的功能。
+</p>
+<p>export var firstName = 'Michael';
+export var lastName = 'Jackson';
+export var year = 1958;</p>
+<p>上面代码是profile.js文件，保存了用户信息。ES6 将其视为一个模块，里面用export命令对外部输出了三个变量。</p>
+<p>export命令除了输出变量，还可以输出函数或类（class）。
+
+export function multiply(x, y) {
+  return x * y;
+};
+上面代码对外输出一个函数multiply。</p>
+      <p>export命令可以出现在模块的任何位置，只要处于模块顶层就可以。如果处于块级作用域内，就会报错，下一节的import命令也是如此.</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var getName = function(){
+        console.log(2);
+      }
+      function getName() {
+        console.log(1);
+      }
+      getName();  //2
+      foo();  //function
+      var foo;
+      function foo(){
+        console.log("function");
+      }
+      foo = function(){
+        console.log("foo = ");
+      }
+      foo();  //foo =
+    </script>
+  </body>
+</html>

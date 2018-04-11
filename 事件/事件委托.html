@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>事件委托</title>
+  </head>
+  <body>
+    <ul id="myUl">
+      <li id="goSomewhere">goSomewhere</li>
+      <li id="saySomething">saySomething</li>
+      <li id="doSomething">doSomething</li>
+    </ul>
+    <script>
+    // 为了以跨浏览器的方式处理事件，需要编写一段“通用代码”，即跨浏览器的事件处理程序
+    // 习惯上，这个方法属于一个名为EventUtil的对象
+    // 编写并使用该对象后，可保证处理事件的代码能在大多数浏览器下一致的运行
+ var EventUtil = {
+    addHandler: function (element, type, handler) { //添加事件
+        if (element.addEventListener) {
+            element.addEventListener(type, handler, false); //使用DOM2级方法添加事件
+        } else if (element.attachEvent) {
+            element.attachEvent("on" + type, handler);  //使用IE方法添加事件
+        } else {
+            element["on" + type] = handler;   //使用DOM0级方法添加事件
+        }
+    },
+    removeHandler: function (element, type, handler) {  //取消事件
+        if (element.removeEventListener) {
+            element.removeEventListener(type, handler, false);
+        } else if (element.detachEvent) {
+            element.detachEvent("on" + type, handler);
+        } else {
+            element["on" + type] = null;
+        }
+    },
+
+    getEvent: function (event) { //使用这个方法跨浏览器取得event对象
+        return event ? event : window.event;
+    },
+    getTarget: function (event) { //返回事件的实际目标
+        return event.target || event.srcElement;
+    },
+    preventDefault: function (event) {  //阻止事件的默认行为
+        if (event.preventDefault) {
+            event.preventDefault();
+        } else {
+            event.returnValue = false;
+        }
+    },
+    stopPropagation: function (event) { //立即停止事件在DOM中的传播
+        if (event.stopPropagation) {  //避免触发注册在document.body上面的事件处理程序
+            event.stopPropagation();
+        } else {
+            event.cancelBubbles = true;
+        }
+    },
+    getRelatedTarget: function (event) { //获取mouseover和mouseout相关元素
+        if (event.relatedTarger) {
+            return event.relatedTarget;
+        } else if (event.toElement) {  //兼容IE8-
+            return event.toElement;
+        } else if (event.fromElement) {
+            return event.fromElement;
+        } else { return null; }
+
+    }
+
+};
+      var oUl = document.getElementById('myUl');
+      EventUtil.addHandler(oUl,"click",function(event){
+        event = EventUtil.getEvent(event);
+        var target = EventUtil.getTarget(event);
+        switch(target.id){
+          case "goSomewhere":
+            console.log("我去某些地方啦~");
+            break;
+          case "saySomething":
+            console.log("我说了一些事情呀~");
+            break;
+          case "doSomething":
+            console.log("我做了一些事情的~");
+            break;
+        }
+      });
+    </script>
+  </body>
+</html>

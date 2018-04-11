@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+  </head>
+  <body>
+    <script>
+    // demo1  嵌套try，内层中没有catch语句
+      // try{
+      //   try {
+      //     throw new Error("opps")
+      //   }
+      //   finally {
+      //     console.log("finally");
+      //   }
+      // }
+      // catch(ex){
+      //   console.error("outer",ex.message);
+      // }
+      // 弹出 finally
+      //     outer opps
+    //   原因：最外部的try语句块中嵌套了一个try-finally语句，内部的try语句中抛出了一个异常，
+    // 但是内部没有catch语句块，所以会执行最近的一个catch语句块，但是在跳出外部try包含语句块之前，
+    // 需要先执行内部的finally语句块中的代码，所以最后的结果如上图所示
+
+      //demo2 嵌套try，但内层有catch
+      // try{
+      //   try {
+      //     throw new Error("opps")
+      //   }
+      //   catch(ex){
+      //     console.error("inner",ex.message);
+      //   }
+      //   finally {
+      //     console.log("finally");
+      //   }
+      // }
+      // catch(ex){
+      //   console.error("outer",ex.message);
+      // }
+      //弹出 inner opps
+      //     finally
+      //原因：这个例子中，内部嵌套的语句块中有catch语句，所以当内部try语句块中抛出异常时，
+      // 会接着执行内部的catch语句块，然后执行finally子句
+
+      //demo3 嵌套try，但内层有catch且在内层catch再throw
+      try{
+        try {
+          throw new Error("opps")
+        }
+        catch(ex){
+          console.error("inner",ex.message);
+          throw(ex);
+        }
+        finally {
+          console.log("finally");
+        }
+      }
+      catch(ex){
+        console.error("outer",ex.message);
+      }
+      //弹出 inner opps
+      //     finally
+      //     outer opps
+      //原因：这个例子在上面例子的基础上，内部的catch语句块中又抛出了一个异常，
+      // 所以，在执行完相应语句后，会接着执行外部的catch语句，结果如上所示。
+    </script>
+  </body>
+</html>

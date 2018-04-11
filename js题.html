@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var x = 1, y = z = 0;
+    function add(n) {
+      n = n+1;
+    }
+    console.log(y);
+    y = add(x);
+    function add(n) {
+      n = n + 3;
+    }
+    z = add(x);
+    console.log(x); //1
+    console.log(y); //undefined
+    console.log(z); //undefined
+    //域解析之后第一行赋值 x=1，y=0，z=0，执行到 y = add(x);由于函数没有返回值，所以y值为undefined，z同理
+
+    for(var i=0, j=0; i<10, j<6; i++, j++){
+      k = i + j;
+    }
+    console.log(k);  //10
+    //最后一次满足条件i，j都是5
+    </script>
+  </body>
+</html>

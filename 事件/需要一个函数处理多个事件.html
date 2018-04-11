@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- <input type="button" value="按钮" id="btn"> -->
+    <div id="btn">按钮</div>
+    <script>
+      var oBtn = document.getElementById("btn");
+      var handler = function(event){
+        switch(event.type){
+          case "click":
+            alert("clicked");
+            break;
+          case "mouseover":
+            event.target.style.backgroundColor = "red";
+            break;
+          case "mouseout":
+            event.target.style.backgroundColor = "";
+            break;
+        }
+      };
+      oBtn.onclick = handler;
+      oBtn.onmouseover = handler;
+      oBtn.onmouseout = handler;
+    </script>
+  </body>
+</html>

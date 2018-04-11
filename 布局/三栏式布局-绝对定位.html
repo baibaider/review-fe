@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            margin:0;
+            padding:0;
+        }
+        .pra{
+            position: relative;
+            height:300px;
+        }
+        .left,.right{
+            width:200px;
+            height:100%;
+            position: absolute;
+            top:0;
+            /*  没加top的时候右块是在下面的*/
+        }
+        .left{
+            left:0;
+            background-color: #ffcccc;
+        }
+        .right{
+            right:0;
+            background-color: bisque;
+        }
+        .main{
+            margin:0 210px;
+            background-color: mediumpurple;
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+<div class="pra">
+    <div class="left"></div>
+    <div class="main"></div>
+    <div class="right"></div>
+</div>
+</body>
+</html>

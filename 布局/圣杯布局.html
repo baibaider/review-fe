@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      .pre{
+        margin-left: 120px;
+        margin-right: 120px;
+        /* height: 300px; */
+      }
+      .left{
+        float: left;
+        width: 100px;
+        height: 300px;
+        margin-left: -100%;
+        left: -120px;
+        position: relative;
+        background-color: blue;
+      }
+      .right{
+          float: left;
+          width: 100px;
+          height: 300px;
+          margin-left: -100px;
+          right: -120px;
+          position: relative;
+          background-color: blue;
+        }
+        .main{
+          height: 300px;
+          float: left;
+          background-color: #ccc;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pre">
+      <div class="main"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>

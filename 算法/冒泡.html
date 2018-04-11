@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    // 经典冒泡
+      var array = new Array('2','1','4','7','4','8','3','6','4','7');
+      var tag;
+      var tem;
+      for(var i=0;i<array.length-1;i++){
+        tag = true;
+        for(var j=0;j<array.length-1-i;j++){
+          if(array[j]>array[j+1]){
+            tem = array[j];
+            array[j] = array[j+1];
+            array[j+1] = tem;
+            tag = false;
+          }
+        }
+        if(tag){
+          break;
+        }
+      }
+      console.log(array.toString());
+    </script>
+  </body>
+</html>

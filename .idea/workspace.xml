@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a16d7c90-e2c8-436e-8eb7-08f23da056ae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/.gitignore" afterPath="$PROJECT_DIR$/webpack/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/.idea/workspace.xml" afterPath="$PROJECT_DIR$/webpack/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/app/css/reset.css" afterPath="$PROJECT_DIR$/webpack/app/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/app/css/style.css" afterPath="$PROJECT_DIR$/webpack/app/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/app/index.js" afterPath="$PROJECT_DIR$/webpack/app/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/es6/index.js" afterPath="$PROJECT_DIR$/webpack/es6/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/es6_build/build.js" afterPath="$PROJECT_DIR$/webpack/es6_build/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/index.html" afterPath="$PROJECT_DIR$/webpack/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/webpack.config.js" afterPath="$PROJECT_DIR$/webpack/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/webpack.es6.config.js" afterPath="$PROJECT_DIR$/webpack/webpack.es6.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack/webpack.html.config.js" afterPath="$PROJECT_DIR$/webpack/webpack.html.config.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="css画图形.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css画图形.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.22美团.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.22美团.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.24头条笔试1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/事件/3.24头条笔试1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="脱离文档流.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/布局/脱离文档流.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-143">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sticky的应用.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/布局/sticky的应用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="174" column="8" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/webpack" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BFC.html" />
+        <option value="$PROJECT_DIR$/BFC_清除内部浮动.html" />
+        <option value="$PROJECT_DIR$/BFC_防止margin重叠.html" />
+        <option value="$PROJECT_DIR$/清除浮动.html" />
+        <option value="$PROJECT_DIR$/水平居中.html" />
+        <option value="$PROJECT_DIR$/垂直居中.html" />
+        <option value="$PROJECT_DIR$/三栏式布局.html" />
+        <option value="$PROJECT_DIR$/html5.html" />
+        <option value="$PROJECT_DIR$/../12.3/html5class列表.html" />
+        <option value="$PROJECT_DIR$/两栏布局.html" />
+        <option value="$PROJECT_DIR$/三栏布局-负margin.html" />
+        <option value="$PROJECT_DIR$/三栏布局自身浮动.html" />
+        <option value="$PROJECT_DIR$/2.24晓华面试1.html" />
+        <option value="$PROJECT_DIR$/css画图形.html" />
+        <option value="$PROJECT_DIR$/壳牌华北/index.heml.html" />
+        <option value="$PROJECT_DIR$/壳牌华北/css/style.css" />
+        <option value="$PROJECT_DIR$/壳牌华北/index.html" />
+        <option value="$PROJECT_DIR$/壳牌华北/js/myjs.js" />
+        <option value="$PROJECT_DIR$/3.22美团.html" />
+        <option value="$PROJECT_DIR$/事件/3.24头条笔试1.html" />
+        <option value="$PROJECT_DIR$/布局/脱离文档流.html" />
+        <option value="$PROJECT_DIR$/布局/sticky的应用.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/webpack/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1376" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="0a复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0a复习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="0a复习" type="b2602c69:ProjectViewProjectNode" />
+              <item name="0a复习" type="462c0819:PsiDirectoryNode" />
+              <item name="布局" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a16d7c90-e2c8-436e-8eb7-08f23da056ae" name="Default" comment="" />
+      <created>1512650584607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512650584607</updated>
+      <workItem from="1512650585964" duration="6505000" />
+      <workItem from="1512697496359" duration="18940000" />
+      <workItem from="1512818351035" duration="1366000" />
+      <workItem from="1519296164191" duration="6940000" />
+      <workItem from="1519454970507" duration="1123000" />
+      <workItem from="1519619620735" duration="635000" />
+      <workItem from="1519626661422" duration="15415000" />
+      <workItem from="1521715333454" duration="4067000" />
+      <workItem from="1521817822809" duration="636000" />
+      <workItem from="1521861353235" duration="617000" />
+      <workItem from="1521888860846" duration="4382000" />
+      <workItem from="1522155380008" duration="2052000" />
+      <workItem from="1522321310833" duration="3342000" />
+      <workItem from="1523096413968" duration="4135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="70155000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="2" width="1376" height="733" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2503737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../11.21css3/171121/3、弹性盒模型/动态遮罩效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../11.28/进度条加载.html" />
+    <entry file="file://$PROJECT_DIR$/BFC-两栏自适应布局.html" />
+    <entry file="file://$PROJECT_DIR$/两栏布局.html" />
+    <entry file="file://$PROJECT_DIR$/三栏式布局-绝对定位.html" />
+    <entry file="file://$PROJECT_DIR$/三栏布局-负margin.html" />
+    <entry file="file://$PROJECT_DIR$/三栏布局自身浮动.html" />
+    <entry file="file://$PROJECT_DIR$/BFC.html" />
+    <entry file="file://$PROJECT_DIR$/BFC_清除内部浮动.html" />
+    <entry file="file://$PROJECT_DIR$/BFC_防止margin重叠.html" />
+    <entry file="file://$PROJECT_DIR$/../6.8练习浮动定位/清除浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/清除浮动.html" />
+    <entry file="file://$PROJECT_DIR$/BFC.html" />
+    <entry file="file://$PROJECT_DIR$/BFC_清除内部浮动.html" />
+    <entry file="file://$PROJECT_DIR$/../common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFC_防止margin重叠.html" />
+    <entry file="file://$PROJECT_DIR$/../6.8练习浮动定位/清除浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/清除浮动.html" />
+    <entry file="file://$PROJECT_DIR$/水平居中.html" />
+    <entry file="file://E:/item/WesternRestaurant-lastVision/WesternRestaurant-lastVision/WesternRestaurant/scss/module/m-aboutUs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/垂直居中.html" />
+    <entry file="file://$PROJECT_DIR$/三栏式布局.html" />
+    <entry file="file://$PROJECT_DIR$/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../12.3/html5class列表.html" />
+    <entry file="file://$PROJECT_DIR$/../12.3/html5json和字符串的转换.html" />
+    <entry file="file://$PROJECT_DIR$/../12.3/Window.onhashchange.html" />
+    <entry file="file://$PROJECT_DIR$/../12.3/跳转后的页面.html" />
+    <entry file="file://$PROJECT_DIR$/../12.5/改变拖拽元素的样子.html" />
+    <entry file="file://$PROJECT_DIR$/../a学习有关/手机页面开始代码（11.25）.html" />
+    <entry file="file://$PROJECT_DIR$/../a学习有关/手机特殊事件（11.25）.html" />
+    <entry file="file://$PROJECT_DIR$/../11.21css3/171121/3、弹性盒模型/动态遮罩效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../11.28/进度条加载.html" />
+    <entry file="file://$PROJECT_DIR$/BFC-两栏自适应布局.html" />
+    <entry file="file://$PROJECT_DIR$/两栏布局.html" />
+    <entry file="file://$PROJECT_DIR$/三栏式布局-绝对定位.html" />
+    <entry file="file://$PROJECT_DIR$/三栏布局-负margin.html" />
+    <entry file="file://$PROJECT_DIR$/三栏布局自身浮动.html" />
+    <entry file="file://$PROJECT_DIR$/2.24晓华面试.html" />
+    <entry file="file://$PROJECT_DIR$/2.24晓华面试1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/壳牌华北/index.heml.html" />
+    <entry file="file://$PROJECT_DIR$/壳牌华北/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/壳牌华北/js/myjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/壳牌华北/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="148" column="24" lean-forward="false" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.22美团笔试.html" />
+    <entry file="file://$PROJECT_DIR$/css画图形.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.24头条笔试.html" />
+    <entry file="file://$PROJECT_DIR$/3.22美团.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/事件/3.24头条笔试1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/布局/脱离文档流.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/布局/sticky的应用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="174" column="8" lean-forward="true" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

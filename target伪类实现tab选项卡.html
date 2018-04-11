@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      #first{
+        background-color: #f00;
+      }
+      #second{
+        background-color: #0f0;
+      }
+      #third{
+        background-color: #00f;
+      }
+      div{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+
+      }
+      #first:target,#second:target,#third:target{
+        z-index: 1;
+      }
+      p{
+        margin-left: 110px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#first">第一张卡</a></li>
+      <li><a href="#second">第二张卡</a></li>
+      <li><a href="#third">第三张卡</a></li>
+    </ul>
+    <div id="first">第一张卡</div>
+    <div id="second">第二张卡</div>
+    <div id="third">第三张卡</div>
+    <p>div的position为absolute为必须属性，且在html里顺序应该倒过来（？所看的博客没有倒过来https://www.cnblogs.com/lynnmn/p/6219684.html）才能在刚刷新页面时显示的是第一个选项卡
+      ，target那一句也是必须的，表示哪个a标签的href属性被激活拥有的属性。</p>
+    <p>问题是a标签全部点击过后再刷新页面会停留在刷新页面之前的那个选项卡，并不会重新加载选项卡的层级，可能与文件是本地的有关系，如果是服务器端每次重新获取数据应该就会是更新的。并且a标签点击之后的样式就一直是那个样子了，需要重新设置visited属性改变才可。</p>
+    <p>给p标签加margin-left是因为div绝对定位之后不占位，需要把div的位置空出来，不然p标签的内容被div盖住了。</p>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>事件对象的eventPhase属性，可以用来确定时间当前正位于事件流的哪个阶段。</div>
+    <div>如果是处于捕获阶段调用的事件处理程序，eventPhase值为1</div>
+    <div>如果事件处理程序位于目标对象上，则eventPhase等于2</div>
+    <div>如果是在冒泡阶段调用的事件处理程序，则eventPhase值为3</div>
+    <div id="btn">
+      按钮
+    </div>
+    <script>
+      var oBtn = document.getElementById("btn");
+      btn.onclick = function(event){
+        alert(event.eventPhase); //2
+      }
+      document.body.addEventListener("click",function(event){
+        alert(event.eventPhase); //1
+      },true);
+      document.body.onclick = function(event){
+        alert(event.eventPhase); //3
+      }
+      // 点击按钮浏览器会弹出1,2,3
+    </script>
+  </body>
+</html>

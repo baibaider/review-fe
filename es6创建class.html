@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    // ES6的class可以看作只是一个语法糖，它的绝大部分功能，ES5都可以做到，新的class写法只是让对象原型的写法更加清晰、更像面向对象编程的语法而已。
+//定义类
+class Point {
+  constructor(x,y) {
+      //构造方法
+       this.x = x; //this关键字代表实例对象
+       this.y = y;
+  } toString() {
+       return '(' + this.x + ',' + this.y + ')';
+  }
+}
+
+    </script>
+  </body>
+</html>
